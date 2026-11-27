@@ -1,0 +1,130 @@
+
+/*модалка*/
+.modal-overlay {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #ffffff;
+  line-height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000000000000000000000;
+}
+.modal-off-on {
+  display: none;
+}
+.modal-off-on:checked ~ .modal-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.modal-content-inm-modal{
+  display: grid;
+  grid-template-rows: 73px 19px;
+  row-gap: 24px;
+  margin-top: 36px;
+}
+.modal-content {
+  width: 304px;
+  height: 394px;
+  max-height: 394px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-rows: 33px 117px 38px;
+  grid-row-gap: 24px;
+  align-items: center;
+  justify-items: center;
+  opacity: 1;
+}
+.modal-form {
+  border: none;
+  width: 232px;
+  border-bottom: 1px #333333 solid;
+  font-family: Rubik-Medium;
+  font-size: 16px;
+  color: #333333;
+  background-color: transparent;
+  padding-bottom: 6px;
+}
+.modal-form:focus {
+  outline: none;
+}
+.modal-sign-in {
+  width: 232px;
+  display: grid;
+  grid-template-rows: repeat(2, 25px);
+  grid-row-gap: 24px;
+}
+.modal-text_sign-in {
+  font-family: Rubik-Medium;
+  font-size: 28px;
+  margin-top: 36px;
+  color: #333333;
+}
+.modal-form::placeholder {
+  font-family: Rubik-Regular;
+  color: #828282;
+}
+.modal-check {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  z-index: 20;
+  background-color: transparent;
+}
+.gal {
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 3px;
+  opacity: 0;
+  z-index: 10;
+}
+.modal-check:checked ~ .gal {
+  opacity: 1;
+}
+.modal-member-check {
+  margin-left: 8px;
+  font-family: Rubik-Regular;
+  font-size: 16px;
+  color: black;
+}
+.div-checkbox-modal {
+  justify-items: left;
+  display: flex;
+}
+.nav-click-button {
+  font-family: RubikM;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: transparent;
+  text-decoration-line: underline;
+  color: #E5261E;
+  text-underline-offset: 9px;
+  text-decoration-thickness: 2px;
+}
+.footer-href {
+  margin-top: 4px;
+  color: #1F4766;
+}
+.auth-btn-modal {
+  margin-top: 251px;
+}
+.modal-text_sign-in-2 {
+  margin-top: 36px;
+}

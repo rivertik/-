@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style_desktop.css">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <div class="header__logo">
+      <img src="img/sign.png" alt="logo">
+      <p class="header__logo__name">Видеосервис</p>
+    </div>
+    <form>
+      <input class="header__search-txt" type="text" placeholder="Поиск...">
+      <input class="header__search-btn" type="button" value="Найти">
+    </form>
+    <input type="checkbox" id="auth_btn" class="modal-off-on">
+    <label class="header__auth-btn" for="auth_btn">войти</label>
+    <div class="modal-overlay">
+      <div class="modal-content">
+          <p class="modal-text_sign-in">Вход</p>
+        <div class="modal-content-inm-modal">
+          <div class="modal-sign-in">
+            <input type="text" id="login" class="modal-form" placeholder="Логин">
+            <input type="password" id="text" class="modal-form" placeholder="Пароль">
+          </div>
+          <div class="div-checkbox-modal">
+            <input type="checkbox" id="member" class="modal-check">
+            <img src="img/galochka.svg" class="gal" alt="gal">
+            <label class="modal-member-check" for="member">Запомнить</label>
+          </div>
+        </div>
+          <div class="auth-btn-modal">
+            <label class="header__auth-btn-modal" for="auth_btn">войти</label>
+          </div>
+      </div>
+      </div>
+  </header>
+  <main>
+    <nav class="nav">
+      <a class="nav_a" href="index.html">Фильмы</a>
+      <a href="" class="nav-click-button">Телеканалы</a>
+    </nav>
+    <div class="channels">
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/1st.svg" alt="First channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">Первый канал</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">Новости (с субтитрами)</p>
+          <p>14:00</p> <p>Давай поженимся</p>
+          <p>15:00</p> <p>Другие новости</p>
+        </div>
+      </div>
+
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/2x2.svg" alt="2x2 channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">2x2</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">МУЛЬТ ТВ. Сезон 4, 7 серия</p>
+          <p>14:00</p> <p>ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</p>
+          <p>15:00</p> <p>БУРДАШЕВ. Сезон 1, 20 серия</p>
+        </div>
+      </div>
+
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/rbc.svg" alt="rbc channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">РБК</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</p>
+          <p>14:00</p> <p>ДЕНЬ. Главные темы</p>
+          <p>15:00</p> <p>Главные новости</p>
+        </div>
+      </div>
+
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/Vector.svg" alt="AMEDIA PREMIUM channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">AMEDIA PREMIUM</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">Клиент всегда мёртв</p>
+          <p>14:00</p> <p>Голодные игры: Сойка-пересмешница. Часть I</p>
+          <p>15:00</p> <p>Секс в большом городе</p>
+        </div>
+      </div>
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/Vector.svg" alt="AMEDIA PREMIUM channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">AMEDIA PREMIUM</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">Клиент всегда мёртв</p>
+          <p>14:00</p> <p>Голодные игры: Сойка-пересмешница. Часть I</p>
+          <p>15:00</p> <p>Секс в большом городе</p>
+        </div>
+      </div>
+
+      <div class="channel">
+        <div class="channel_img">
+          <img src="img/Vector.svg" alt="AMEDIA PREMIUM channel icon">
+        </div>
+        <div class="channel_schedule">
+          <p class="channel_name">AMEDIA PREMIUM</p>
+          <p class="channel-programm-now">13:00</p> <p class="channel-programm-now">Клиент всегда мёртв</p>
+          <p>14:00</p> <p>Голодные игры: Сойка-пересмешница. Часть I</p>
+          <p>15:00</p> <p>Секс в большом городе</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+  <footer class="footer">
+    <img src="img/htc-cs-logo.svg" alt="logo" class="footer-img">
+    <div class="footer-text">
+      <p>426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
+      <p>+7 (3412) 93-88-61, 43-29-29</p>
+      <a href="htc-cs.ru" class="footer-href">htc-cs.ru</a>
+    </div>
+  </footer>
+</body>
+</html>

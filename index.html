@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верстка по макету ЦВТ</title>
+    <link rel="stylesheet" href="css/style_desktop.css">
+</head>
+<body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img src="img/sign.png" alt="logo" class="header_logo_img">
+          <p class="header__logo__name">Видеосервис</p>
+        </div>
+        <form>
+          <input class="header__search-txt" type="text" placeholder="Поиск...">
+          <input class="header__search-btn" type="button" value="Найти">
+        </form>
+        <input type="checkbox" id="auth_btn" class="modal-off-on">
+        <label class="header__auth-btn" for="auth_btn">войти</label>
+        <div class="modal-overlay">
+          <div class="modal-content">
+            <p class="modal-text_sign-in">Вход</p>
+            <div class="modal-content-inm-modal">
+              <div class="modal-sign-in">
+                <input type="text" id="login" class="modal-form" placeholder="Логин">
+                <input type="password" id="text" class="modal-form" placeholder="Пароль">
+              </div>
+              <div class="div-checkbox-modal">
+                <input type="checkbox" id="member" class="modal-check">
+                <img src="img/galochka.svg" class="gal" alt="gal">
+                <label class="modal-member-check" for="member">Запомнить</label>
+              </div>
+            </div>
+            <div class="auth-btn-modal">
+              <label class="header__auth-btn-modal" for="auth_btn">войти</label>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <nav class="nav">
+          <a href="" class="nav-click-button">Фильмы</a>
+          <a class="nav_a" href="2page.html">Телеканалы</a>
+        </nav>
+        <div class ="new">
+          <p class="text-1">&#128293;Новинки</p>
+          <div class="new_item">
+            <div class="new-item-card">
+              <img src ="img/cat.svg" alt="movie about cat" class="new_item_img">
+              <p class="text-1">Мульт в кино.Выпуск №103.Некогда грустить!</p>
+              <p class="new_item_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat sed sunt unde? A accusamus alias, at, doloribus facilis incidunt ipsum minus, nemo provident ratione repellendus repudiandae sint voluptates? Dolores?</p>
+            </div>
+            <div class="new-item-card">
+              <img src ="img/batman.svg" alt="movie about batman" class="new_item_img">
+              <p class="text-1">Новый Бэтмен</p>
+              <p class="new_item_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa in nisi obcaecati quasi veritatis. Ad debitis delectus dignissimos dolorum, eos in ipsa minima molestias nemo nihil possimus, reprehenderit tenetur vitae.</p>
+            </div>
+            <div class="new-item-card">
+              <img src ="img/hollywood.svg" alt="movie about hollywood" class="new_item_img">
+              <p class="text-1">Однажды... в Голливуде</p>
+              <p class="new_item_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cum dolor ducimus eaque esse facilis fugiat labore laborum minima minus, perferendis praesentium quaerat qui, soluta suscipit tenetur, veniam vero voluptates!</p>
+            </div>
+            <div class="new-item-card">
+              <img src ="img/strip.svg" alt="movie about strip" class="new_item_img">
+              <p class="text-1">Стриптизерши</p>
+              <p class="new_item_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolor, doloribus esse est eveniet ex hic id, magni molestiae mollitia nesciunt obcaecati omnis quasi reiciendis repellendus sed similique, tempora tempore?</p>
+            </div>
+          </div>
+        </div>
+        <div class="emoji">
+          <p class="text-emoji">Жанры</p>
+          <div class="emoji-cards-1">
+            <p class="text-emoji-card1">&#x1f601;</p>
+            <p class="text-emoji-card2">Комедии</p>
+          </div>
+          <div class="emoji-cards-2">
+            <p class="text-emoji-card1">&#x1f62d;</p>
+            <p class="text-emoji-card2">Драмы</p>
+          </div>
+          <div class="emoji-cards-3">
+            <p class="text-emoji-card1">&#x1f47d;</p>
+            <p class="text-emoji-card2">Фантастика</p>
+          </div>
+          <div class="emoji-cards-4">
+            <p class="text-emoji-card1">&#x1f47b;</p>
+            <p class="text-emoji-card2">Ужасы</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <img src="img/htc-cs-logo.svg" alt="logo" class="footer-img">
+      <div class="footer-text">
+        <p>426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
+        <p>+7 (3412) 93-88-61, 43-29-29</p>
+        <a href="htc-cs.ru" class="footer-href">htc-cs.ru</a>
+      </div>
+    </footer>
+</body>
+</html>
